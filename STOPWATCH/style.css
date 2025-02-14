@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* لجعل المحتوى في منتصف الصفحة */
+    background-color: #282828; /* لون خلفية الصفحة */
+    color: #fff; /* لون النص */
+    font-family: Arial, sans-serif; /* خط النص */
+    margin: 0; /* إزالة الهوامش الافتراضية */
+}
+
+.stopwatch {
+    text-align: center; /* توسيط النص */
+    background-color: #444; /* لون خلفية ساعة الإيقاف */
+    padding: 20px 40px; /* إضافة مساحة داخلية */
+    border-radius: 10px; /* زوايا دائرية */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* إضافة ظل */
+}
+
+.display {
+    font-size: 3rem; /* حجم النص */
+    margin-bottom: 20px; /* مسافة أسفل العرض */
+}
+
+.controls button {
+    font-size: 1rem; /* حجم نص الأزرار */
+    padding: 10px 20px; /* مساحة داخلية للأزرار */
+    margin: 5px; /* مسافة بين الأزرار */
+    border: none; /* إزالة الحدود */
+    border-radius: 5px; /* زوايا دائرية للأزرار */
+    cursor: pointer; /* تغيير شكل المؤشر عند التمرير */
+    background-color: #666; /* لون خلفية الأزرار */
+    color: #fff; /* لون نص الأزرار */
+}
+
+.controls button:hover {
+    background-color: #777; /* تغيير لون الزر عند التمرير */
+}
